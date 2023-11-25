@@ -1,0 +1,296 @@
+.main {
+    background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/a09bb938-2d90-42ae-986e-5a3e4abf9e77/8eb1e781-3494-4aa4-9405-268ca6473e4c/IN-en-20231113-popsignuptwoweeks-perspective_alpha_website_medium.jpg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+body {
+    background-color: black;
+}
+
+.main .box {
+    height: 100%;
+    width: 100%;
+    opacity: 0.44;
+    position: absolute;
+    background-color: black;
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+
+
+}
+
+.navbar img {
+    position: relative;
+    z-index: 10;
+    margin: 13px;
+    color: red;
+    width: 114px;
+}
+.navbar button {
+    margin-top: 13px;
+    border-radius: 5px;
+    position: relative;
+    z-index: 10;
+    padding: 6px 25px;
+
+}
+
+.hero {
+    height: 100%;
+}
+
+.hero {
+    font-family: 'martel Sans', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: wheat;
+    position: relative;
+    gap: 23px;
+    padding: 23px;
+    text-align: center;
+}
+
+.hero> :nth-child(1) {
+    font-weight: bolder;
+    font-size: 48px
+}
+
+.hero> :nth-child(2) {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.hero> :nth-child(3) {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.line {
+    height: 7px;
+    background-color: rgb(8, 8, 8);
+}
+
+button {
+    padding: 3px 8px;
+    font-weight: bold;
+    background-color: white;
+}
+
+.btn {
+    padding: 7px 24px;
+    font-size: 20px;
+    border-radius: 4px;
+
+
+}
+
+.hero div input {
+    color: white;
+    background-color: rgba(55, 47, 47);
+    padding: 7px 24px;
+    font-size: 16px;
+    border-radius: 4px;
+    padding: 10px 62px 8px 62px;
+}
+
+section img {
+    width: 30vw;
+}
+
+.first {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 2fr;
+
+}
+
+.first {
+    display: flex;
+    justify-content: center;
+
+    align-items: center;
+}
+
+.firsttext {
+
+    grid-row: 1;
+    grid-column: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+section.img {
+    position: absolute;
+    z-index: 23;
+
+}
+
+section video {
+    grid-row: 1;
+    grid-column: 2;
+    position: absolute;
+    z-index: 10;
+    top: 720px;
+    right: 76px;
+
+
+}
+
+.first div> :first-child {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.first div> :nth-child(3) {
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.second {
+    display: flex;
+    justify-content: center;
+
+    align-items: center;
+}
+
+.second {
+    display: flex;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 2fr;
+}
+
+section video {
+    grid-row: 1;
+    grid-column: 1;
+    position: absolute;
+    z-index: 10;
+    top: 720px;
+    right: 76px;
+}
+
+.secondtext {
+    align-items: center;
+    grid-row: 1;
+    grid-column: 2;
+    align-items: center;
+    justify-content: center;
+}
+
+.second div> :first-child {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.second div> :nth-child(3) {
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.fourth {
+    display: flex;
+    justify-content: center;
+
+    align-items: center;
+}
+
+.fourth {
+    display: flex;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 2fr;
+}
+
+.fourth video {
+    grid-row: 1;
+    grid-column: 1;
+    position: absolute;
+    z-index: -1;
+    top: 1306px;
+    right: 159px;
+}
+
+.fourthtext {
+    align-items: center;
+    grid-row: 1;
+    grid-column: 2;
+    align-items: center;
+    justify-content: center;
+}
+
+.fourth div> :first-child {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.fourth div> :nth-child(3) {
+    font-size: 24px;
+    font-weight: bolder;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    flex-direction:column ;
+    align-items: center;
+}
+.footer span{
+    color: white;
+}
+.lastspan{
+    font-size: 48px;
+    font-weight: bolder;
+}.rinput{
+    color:white ;
+    background-color: rgb(20, 20, 20);
+    justify-content: space-around;
+    margin: 2px 229px;
+    padding:22px 500px 22px 10px  ;
+    font-size: 20px ;
+    font-weight: bolder;
+  }
+    
+    .lastbtn {
+        margin-top: 13px;
+        border-radius: 5px;
+        position: relative;
+        z-index: 10;
+        padding: 6px 25px;
+    
+    }
+    .rinput:hover{
+        background-color: rgb(110, 106, 106);
+        color: white;
+    }
+.last input{
+    margin:23px 4px 0px 8px  ;
+    padding: 6px 151px 7px 10px ;
+
+}
+.last{
+    margin: 2px 2px 2px 100px ;
+    
+}   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
